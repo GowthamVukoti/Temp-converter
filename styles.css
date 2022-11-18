@@ -1,0 +1,107 @@
+.heading {
+    text-align: center;
+    padding-top: 1rem;
+    font-size: xx-large;
+    background-color: var(--prc);
+    padding-bottom: 1rem;
+    color: var(--sec);
+    font-weight: 700;
+    margin-bottom: 8rem;
+}
+
+:root {
+    --prc: coral;
+    --sec: rgb(50, 66, 205);
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    margin: auto;
+    max-width: 700px;
+    text-align: center;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    padding: 1rem;
+    border-color: bisque;
+    border-radius: 1rem;
+}
+
+.hed {
+    color: var(--prc);
+    display: block;
+    margin-right: 7rem;
+
+}
+
+.txtbox {
+
+    width: 20rem;
+    background-color: bisque;
+    height: 2rem;
+    margin-bottom: 1.5rem;
+    border-color: var(--sec);
+    color: var(--sec);
+    max-width: 80vh;
+    font-size: larger;
+    font-weight: bolder;
+    padding-left: 1rem;
+}
+
+.drpmnu {
+    width: 9rem;
+    background-color: bisque;
+    padding-left: 1rem;
+    height: 2rem;
+
+    color: var(--prc);
+    font-size: medium;
+    font-weight: 700;
+    border-radius: 0.25rem;
+    border-color: var(--prc);
+}
+
+.btn {
+
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.4rem;
+    border-radius: 0.25rem;
+    background-color: var(--sec);
+    color: white;
+    border-color: var(--sec);
+
+
+    width: 8rem;
+    height: 3rem;
+    margin-top: 2rem;
+}
+
+.rhed {
+
+    color: var(--sec);
+    margin-top: .2rem;
+    margin-right: 16.5rem;
+
+
+}
+
+.value {
+    color: var(--prc);
+    font-size: larger;
+    font-weight: bolder;
+    text-align: left;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    margin-right: 9rem;
+    border: 1.6px solid var(--prc);
+    width: 20rem;
+    height: 2rem;
+    margin: auto;
+}
